@@ -10,4 +10,6 @@
 
 @interface WUViewController : UIViewController
 
+- (void)updateViewWithTemp:(NSString *)temp;
+
 @end

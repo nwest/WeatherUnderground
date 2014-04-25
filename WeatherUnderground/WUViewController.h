@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class WUService;
 @interface WUViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *mylabel;
+@property (strong, nonatomic) WUService *service;
 
 - (void)updateViewWithTemp:(NSString *)temp;
 

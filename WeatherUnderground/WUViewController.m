@@ -7,12 +7,22 @@
 //
 
 #import "WUViewController.h"
+#import "WUService.h"
 
 @interface WUViewController ()
 
 @end
 
 @implementation WUViewController
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.service = [[WUService alloc]init];
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
@@ -22,7 +32,7 @@
 
 - (void)updateViewWithTemp:(NSString *)temp
 {
-    
+    self.mylabel.text = temp;
 }
 
 @end

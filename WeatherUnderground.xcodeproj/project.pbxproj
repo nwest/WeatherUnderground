@@ -1,1220 +1,567 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0886D7E9A8A24AE9851AA68B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-WeatherUndergroundTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>18C682E0DA224E7C9ECD513F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0886D7E9A8A24AE9851AA68B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C68FC3F71104D019813BAF7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>620D139046344D968E220FD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-WeatherUndergroundTests.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-WeatherUndergroundTests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E4668C3CF764252AFC4945E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ACBBA01FD4DA43BBB2F98ED2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-WeatherUndergroundTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>B5057BB02446492B8846C617</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D177247E64D34CC0A301974F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E1CD3A397A6042A0878A9F66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA3A717BD73A43AFA3B81247</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E76A5D32190AAA6D00F04EA6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WUServiceSpec.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E76A5D33190AAA6D00F04EA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E76A5D32190AAA6D00F04EA6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E76A5D34190AAAF100F04EA6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WUService.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E76A5D35190AAAF100F04EA6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WUService.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E76A5D36190AAAF100F04EA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E76A5D35190AAAF100F04EA6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EF8B190AA65200EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EF9D190AA65200EEE931</string>
-				<string>E7B2EFBC190AA65300EEE931</string>
-				<string>E7B2EF96190AA65200EEE931</string>
-				<string>E7B2EF95190AA65200EEE931</string>
-				<string>620D139046344D968E220FD2</string>
-				<string>8E4668C3CF764252AFC4945E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EF8C190AA65200EEE931</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>WU</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Nate West</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>E7B2EFB4190AA65300EEE931</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>E7B2EF93190AA65200EEE931</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>E7B2EF8F190AA65200EEE931</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>E7B2EF8B190AA65200EEE931</string>
-			<key>productRefGroup</key>
-			<string>E7B2EF95190AA65200EEE931</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>E7B2EF93190AA65200EEE931</string>
-				<string>E7B2EFB4190AA65300EEE931</string>
-			</array>
-		</dict>
-		<key>E7B2EF8F190AA65200EEE931</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E7B2EFC4190AA65300EEE931</string>
-				<string>E7B2EFC5190AA65300EEE931</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E7B2EF90190AA65200EEE931</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E7B2EFA8190AA65200EEE931</string>
-				<string>E7B2EFA4190AA65200EEE931</string>
-				<string>E7B2EFAE190AA65200EEE931</string>
-				<string>E76A5D36190AAAF100F04EA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7B2EF91190AA65200EEE931</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E7B2EF9A190AA65200EEE931</string>
-				<string>E7B2EF9C190AA65200EEE931</string>
-				<string>E7B2EF98190AA65200EEE931</string>
-				<string>E1CD3A397A6042A0878A9F66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7B2EF92190AA65200EEE931</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E7B2EFB0190AA65200EEE931</string>
-				<string>E7B2EFA2190AA65200EEE931</string>
-				<string>E7B2EFAB190AA65200EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7B2EF93190AA65200EEE931</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E7B2EFC6190AA65300EEE931</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B5057BB02446492B8846C617</string>
-				<string>E7B2EF90190AA65200EEE931</string>
-				<string>E7B2EF91190AA65200EEE931</string>
-				<string>E7B2EF92190AA65200EEE931</string>
-				<string>D177247E64D34CC0A301974F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WeatherUnderground</string>
-			<key>productName</key>
-			<string>WeatherUnderground</string>
-			<key>productReference</key>
-			<string>E7B2EF94190AA65200EEE931</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>E7B2EF94190AA65200EEE931</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WeatherUnderground.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E7B2EF95190AA65200EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EF94190AA65200EEE931</string>
-				<string>E7B2EFB5190AA65300EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EF96190AA65200EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EF97190AA65200EEE931</string>
-				<string>E7B2EF99190AA65200EEE931</string>
-				<string>E7B2EF9B190AA65200EEE931</string>
-				<string>E7B2EFB6190AA65300EEE931</string>
-				<string>0886D7E9A8A24AE9851AA68B</string>
-				<string>EA3A717BD73A43AFA3B81247</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EF97190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E7B2EF98190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EF97190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EF99190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E7B2EF9A190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EF99190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EF9B190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E7B2EF9C190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EF9B190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EF9D190AA65200EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EFA6190AA65200EEE931</string>
-				<string>E7B2EFA7190AA65200EEE931</string>
-				<string>E7B2EFA9190AA65200EEE931</string>
-				<string>E7B2EFAC190AA65200EEE931</string>
-				<string>E7B2EFAD190AA65200EEE931</string>
-				<string>E76A5D34190AAAF100F04EA6</string>
-				<string>E76A5D35190AAAF100F04EA6</string>
-				<string>E7B2EFAF190AA65200EEE931</string>
-				<string>E7B2EF9E190AA65200EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WeatherUnderground</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EF9E190AA65200EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EF9F190AA65200EEE931</string>
-				<string>E7B2EFA0190AA65200EEE931</string>
-				<string>E7B2EFA3190AA65200EEE931</string>
-				<string>E7B2EFA5190AA65200EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EF9F190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>WeatherUnderground-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFA0190AA65200EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EFA1190AA65200EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFA1190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFA2190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFA0190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFA3190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFA4190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFA3190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFA5190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WeatherUnderground-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFA6190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WUAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFA7190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WUAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFA8190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFA7190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFA9190AA65200EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EFAA190AA65200EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFAA190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFAB190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFA9190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFAC190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WUViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFAD190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WUViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFAE190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFAD190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFAF190AA65200EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFB0190AA65200EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFAF190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFB1190AA65300EEE931</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E76A5D33190AAA6D00F04EA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7B2EFB2190AA65300EEE931</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E7B2EFB7190AA65300EEE931</string>
-				<string>E7B2EFB9190AA65300EEE931</string>
-				<string>E7B2EFB8190AA65300EEE931</string>
-				<string>18C682E0DA224E7C9ECD513F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7B2EFB3190AA65300EEE931</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E7B2EFC1190AA65300EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7B2EFB4190AA65300EEE931</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E7B2EFC9190AA65300EEE931</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5C68FC3F71104D019813BAF7</string>
-				<string>E7B2EFB1190AA65300EEE931</string>
-				<string>E7B2EFB2190AA65300EEE931</string>
-				<string>E7B2EFB3190AA65300EEE931</string>
-				<string>ACBBA01FD4DA43BBB2F98ED2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E7B2EFBB190AA65300EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WeatherUndergroundTests</string>
-			<key>productName</key>
-			<string>WeatherUndergroundTests</string>
-			<key>productReference</key>
-			<string>E7B2EFB5190AA65300EEE931</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>E7B2EFB5190AA65300EEE931</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WeatherUndergroundTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E7B2EFB6190AA65300EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E7B2EFB7190AA65300EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFB6190AA65300EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFB8190AA65300EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EF97190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFB9190AA65300EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EF9B190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFBA190AA65300EEE931</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>E7B2EF8C190AA65200EEE931</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E7B2EF93190AA65200EEE931</string>
-			<key>remoteInfo</key>
-			<string>WeatherUnderground</string>
-		</dict>
-		<key>E7B2EFBB190AA65300EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>E7B2EF93190AA65200EEE931</string>
-			<key>targetProxy</key>
-			<string>E7B2EFBA190AA65300EEE931</string>
-		</dict>
-		<key>E7B2EFBC190AA65300EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E76A5D32190AAA6D00F04EA6</string>
-				<string>E7B2EFBD190AA65300EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WeatherUndergroundTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFBD190AA65300EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EFBE190AA65300EEE931</string>
-				<string>E7B2EFBF190AA65300EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFBE190AA65300EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>WeatherUndergroundTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFBF190AA65300EEE931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7B2EFC0190AA65300EEE931</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFC0190AA65300EEE931</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7B2EFC1190AA65300EEE931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7B2EFBF190AA65300EEE931</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7B2EFC4190AA65300EEE931</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E7B2EFC5190AA65300EEE931</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E7B2EFC6190AA65300EEE931</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E7B2EFC7190AA65300EEE931</string>
-				<string>E7B2EFC8190AA65300EEE931</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E7B2EFC7190AA65300EEE931</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8E4668C3CF764252AFC4945E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>WeatherUnderground/WeatherUnderground-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WeatherUnderground/WeatherUnderground-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E7B2EFC8190AA65300EEE931</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8E4668C3CF764252AFC4945E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>WeatherUnderground/WeatherUnderground-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WeatherUnderground/WeatherUnderground-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E7B2EFC9190AA65300EEE931</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E7B2EFCA190AA65300EEE931</string>
-				<string>E7B2EFCB190AA65300EEE931</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E7B2EFCA190AA65300EEE931</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>620D139046344D968E220FD2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/WeatherUnderground.app/WeatherUnderground</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>WeatherUnderground/WeatherUnderground-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>WeatherUndergroundTests/WeatherUndergroundTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E7B2EFCB190AA65300EEE931</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>620D139046344D968E220FD2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/WeatherUnderground.app/WeatherUnderground</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>WeatherUnderground/WeatherUnderground-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WeatherUndergroundTests/WeatherUndergroundTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EA3A717BD73A43AFA3B81247</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>E7B2EF8C190AA65200EEE931</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C682E0DA224E7C9ECD513F /* libPods-WeatherUndergroundTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0886D7E9A8A24AE9851AA68B /* libPods-WeatherUndergroundTests.a */; };
+		E1CD3A397A6042A0878A9F66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3A717BD73A43AFA3B81247 /* libPods.a */; };
+		E76A5D33190AAA6D00F04EA6 /* WUServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E76A5D32190AAA6D00F04EA6 /* WUServiceSpec.m */; };
+		E76A5D36190AAAF100F04EA6 /* WUService.m in Sources */ = {isa = PBXBuildFile; fileRef = E76A5D35190AAAF100F04EA6 /* WUService.m */; };
+		E76A5D38190AEB7200F04EA6 /* WUViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E76A5D37190AEB7200F04EA6 /* WUViewControllerSpec.m */; };
+		E7B2EF98190AA65200EEE931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2EF97190AA65200EEE931 /* Foundation.framework */; };
+		E7B2EF9A190AA65200EEE931 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2EF99190AA65200EEE931 /* CoreGraphics.framework */; };
+		E7B2EF9C190AA65200EEE931 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2EF9B190AA65200EEE931 /* UIKit.framework */; };
+		E7B2EFA2190AA65200EEE931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EFA0190AA65200EEE931 /* InfoPlist.strings */; };
+		E7B2EFA4190AA65200EEE931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EFA3190AA65200EEE931 /* main.m */; };
+		E7B2EFA8190AA65200EEE931 /* WUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EFA7190AA65200EEE931 /* WUAppDelegate.m */; };
+		E7B2EFAB190AA65200EEE931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EFA9190AA65200EEE931 /* Main.storyboard */; };
+		E7B2EFAE190AA65200EEE931 /* WUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EFAD190AA65200EEE931 /* WUViewController.m */; };
+		E7B2EFB0190AA65200EEE931 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EFAF190AA65200EEE931 /* Images.xcassets */; };
+		E7B2EFB7190AA65300EEE931 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2EFB6190AA65300EEE931 /* XCTest.framework */; };
+		E7B2EFB8190AA65300EEE931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2EF97190AA65200EEE931 /* Foundation.framework */; };
+		E7B2EFB9190AA65300EEE931 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2EF9B190AA65200EEE931 /* UIKit.framework */; };
+		E7B2EFC1190AA65300EEE931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EFBF190AA65300EEE931 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7B2EFBA190AA65300EEE931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B2EF8C190AA65200EEE931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B2EF93190AA65200EEE931;
+			remoteInfo = WeatherUnderground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0886D7E9A8A24AE9851AA68B /* libPods-WeatherUndergroundTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherUndergroundTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		620D139046344D968E220FD2 /* Pods-WeatherUndergroundTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherUndergroundTests.xcconfig"; path = "Pods/Pods-WeatherUndergroundTests.xcconfig"; sourceTree = "<group>"; };
+		8E4668C3CF764252AFC4945E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E76A5D32190AAA6D00F04EA6 /* WUServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUServiceSpec.m; sourceTree = "<group>"; };
+		E76A5D34190AAAF100F04EA6 /* WUService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUService.h; sourceTree = "<group>"; };
+		E76A5D35190AAAF100F04EA6 /* WUService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUService.m; sourceTree = "<group>"; };
+		E76A5D37190AEB7200F04EA6 /* WUViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUViewControllerSpec.m; sourceTree = "<group>"; };
+		E7B2EF94190AA65200EEE931 /* WeatherUnderground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherUnderground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B2EF97190AA65200EEE931 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7B2EF99190AA65200EEE931 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7B2EF9B190AA65200EEE931 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7B2EF9F190AA65200EEE931 /* WeatherUnderground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherUnderground-Info.plist"; sourceTree = "<group>"; };
+		E7B2EFA1190AA65200EEE931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7B2EFA3190AA65200EEE931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7B2EFA5190AA65200EEE931 /* WeatherUnderground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherUnderground-Prefix.pch"; sourceTree = "<group>"; };
+		E7B2EFA6190AA65200EEE931 /* WUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUAppDelegate.h; sourceTree = "<group>"; };
+		E7B2EFA7190AA65200EEE931 /* WUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUAppDelegate.m; sourceTree = "<group>"; };
+		E7B2EFAA190AA65200EEE931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7B2EFAC190AA65200EEE931 /* WUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUViewController.h; sourceTree = "<group>"; };
+		E7B2EFAD190AA65200EEE931 /* WUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUViewController.m; sourceTree = "<group>"; };
+		E7B2EFAF190AA65200EEE931 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E7B2EFB5190AA65300EEE931 /* WeatherUndergroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUndergroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B2EFB6190AA65300EEE931 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E7B2EFBE190AA65300EEE931 /* WeatherUndergroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherUndergroundTests-Info.plist"; sourceTree = "<group>"; };
+		E7B2EFC0190AA65300EEE931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA3A717BD73A43AFA3B81247 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B2EF91190AA65200EEE931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B2EF9A190AA65200EEE931 /* CoreGraphics.framework in Frameworks */,
+				E7B2EF9C190AA65200EEE931 /* UIKit.framework in Frameworks */,
+				E7B2EF98190AA65200EEE931 /* Foundation.framework in Frameworks */,
+				E1CD3A397A6042A0878A9F66 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B2EFB2190AA65300EEE931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B2EFB7190AA65300EEE931 /* XCTest.framework in Frameworks */,
+				E7B2EFB9190AA65300EEE931 /* UIKit.framework in Frameworks */,
+				E7B2EFB8190AA65300EEE931 /* Foundation.framework in Frameworks */,
+				18C682E0DA224E7C9ECD513F /* libPods-WeatherUndergroundTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7B2EF8B190AA65200EEE931 = {
+			isa = PBXGroup;
+			children = (
+				E7B2EF9D190AA65200EEE931 /* WeatherUnderground */,
+				E7B2EFBC190AA65300EEE931 /* WeatherUndergroundTests */,
+				E7B2EF96190AA65200EEE931 /* Frameworks */,
+				E7B2EF95190AA65200EEE931 /* Products */,
+				620D139046344D968E220FD2 /* Pods-WeatherUndergroundTests.xcconfig */,
+				8E4668C3CF764252AFC4945E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B2EF95190AA65200EEE931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2EF94190AA65200EEE931 /* WeatherUnderground.app */,
+				E7B2EFB5190AA65300EEE931 /* WeatherUndergroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B2EF96190AA65200EEE931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2EF97190AA65200EEE931 /* Foundation.framework */,
+				E7B2EF99190AA65200EEE931 /* CoreGraphics.framework */,
+				E7B2EF9B190AA65200EEE931 /* UIKit.framework */,
+				E7B2EFB6190AA65300EEE931 /* XCTest.framework */,
+				0886D7E9A8A24AE9851AA68B /* libPods-WeatherUndergroundTests.a */,
+				EA3A717BD73A43AFA3B81247 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B2EF9D190AA65200EEE931 /* WeatherUnderground */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2EFA6190AA65200EEE931 /* WUAppDelegate.h */,
+				E7B2EFA7190AA65200EEE931 /* WUAppDelegate.m */,
+				E7B2EFA9190AA65200EEE931 /* Main.storyboard */,
+				E7B2EFAC190AA65200EEE931 /* WUViewController.h */,
+				E7B2EFAD190AA65200EEE931 /* WUViewController.m */,
+				E76A5D34190AAAF100F04EA6 /* WUService.h */,
+				E76A5D35190AAAF100F04EA6 /* WUService.m */,
+				E7B2EFAF190AA65200EEE931 /* Images.xcassets */,
+				E7B2EF9E190AA65200EEE931 /* Supporting Files */,
+			);
+			path = WeatherUnderground;
+			sourceTree = "<group>";
+		};
+		E7B2EF9E190AA65200EEE931 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2EF9F190AA65200EEE931 /* WeatherUnderground-Info.plist */,
+				E7B2EFA0190AA65200EEE931 /* InfoPlist.strings */,
+				E7B2EFA3190AA65200EEE931 /* main.m */,
+				E7B2EFA5190AA65200EEE931 /* WeatherUnderground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7B2EFBC190AA65300EEE931 /* WeatherUndergroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				E76A5D32190AAA6D00F04EA6 /* WUServiceSpec.m */,
+				E76A5D37190AEB7200F04EA6 /* WUViewControllerSpec.m */,
+				E7B2EFBD190AA65300EEE931 /* Supporting Files */,
+			);
+			path = WeatherUndergroundTests;
+			sourceTree = "<group>";
+		};
+		E7B2EFBD190AA65300EEE931 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2EFBE190AA65300EEE931 /* WeatherUndergroundTests-Info.plist */,
+				E7B2EFBF190AA65300EEE931 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B2EF93190AA65200EEE931 /* WeatherUnderground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B2EFC6190AA65300EEE931 /* Build configuration list for PBXNativeTarget "WeatherUnderground" */;
+			buildPhases = (
+				B5057BB02446492B8846C617 /* Check Pods Manifest.lock */,
+				E7B2EF90190AA65200EEE931 /* Sources */,
+				E7B2EF91190AA65200EEE931 /* Frameworks */,
+				E7B2EF92190AA65200EEE931 /* Resources */,
+				D177247E64D34CC0A301974F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherUnderground;
+			productName = WeatherUnderground;
+			productReference = E7B2EF94190AA65200EEE931 /* WeatherUnderground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7B2EFB4190AA65300EEE931 /* WeatherUndergroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B2EFC9190AA65300EEE931 /* Build configuration list for PBXNativeTarget "WeatherUndergroundTests" */;
+			buildPhases = (
+				5C68FC3F71104D019813BAF7 /* Check Pods Manifest.lock */,
+				E7B2EFB1190AA65300EEE931 /* Sources */,
+				E7B2EFB2190AA65300EEE931 /* Frameworks */,
+				E7B2EFB3190AA65300EEE931 /* Resources */,
+				ACBBA01FD4DA43BBB2F98ED2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B2EFBB190AA65300EEE931 /* PBXTargetDependency */,
+			);
+			name = WeatherUndergroundTests;
+			productName = WeatherUndergroundTests;
+			productReference = E7B2EFB5190AA65300EEE931 /* WeatherUndergroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B2EF8C190AA65200EEE931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nate West";
+				TargetAttributes = {
+					E7B2EFB4190AA65300EEE931 = {
+						TestTargetID = E7B2EF93190AA65200EEE931;
+					};
+				};
+			};
+			buildConfigurationList = E7B2EF8F190AA65200EEE931 /* Build configuration list for PBXProject "WeatherUnderground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7B2EF8B190AA65200EEE931;
+			productRefGroup = E7B2EF95190AA65200EEE931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B2EF93190AA65200EEE931 /* WeatherUnderground */,
+				E7B2EFB4190AA65300EEE931 /* WeatherUndergroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7B2EF92190AA65200EEE931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B2EFB0190AA65200EEE931 /* Images.xcassets in Resources */,
+				E7B2EFA2190AA65200EEE931 /* InfoPlist.strings in Resources */,
+				E7B2EFAB190AA65200EEE931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B2EFB3190AA65300EEE931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B2EFC1190AA65300EEE931 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C68FC3F71104D019813BAF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBBA01FD4DA43BBB2F98ED2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-WeatherUndergroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5057BB02446492B8846C617 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D177247E64D34CC0A301974F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B2EF90190AA65200EEE931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B2EFA8190AA65200EEE931 /* WUAppDelegate.m in Sources */,
+				E7B2EFA4190AA65200EEE931 /* main.m in Sources */,
+				E7B2EFAE190AA65200EEE931 /* WUViewController.m in Sources */,
+				E76A5D36190AAAF100F04EA6 /* WUService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B2EFB1190AA65300EEE931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A5D33190AAA6D00F04EA6 /* WUServiceSpec.m in Sources */,
+				E76A5D38190AEB7200F04EA6 /* WUViewControllerSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7B2EFBB190AA65300EEE931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B2EF93190AA65200EEE931 /* WeatherUnderground */;
+			targetProxy = E7B2EFBA190AA65300EEE931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7B2EFA0190AA65200EEE931 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B2EFA1190AA65200EEE931 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7B2EFA9190AA65200EEE931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B2EFAA190AA65200EEE931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B2EFBF190AA65300EEE931 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B2EFC0190AA65300EEE931 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7B2EFC4190AA65300EEE931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7B2EFC5190AA65300EEE931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7B2EFC7190AA65300EEE931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4668C3CF764252AFC4945E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherUnderground/WeatherUnderground-Prefix.pch";
+				INFOPLIST_FILE = "WeatherUnderground/WeatherUnderground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7B2EFC8190AA65300EEE931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4668C3CF764252AFC4945E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherUnderground/WeatherUnderground-Prefix.pch";
+				INFOPLIST_FILE = "WeatherUnderground/WeatherUnderground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E7B2EFCA190AA65300EEE931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620D139046344D968E220FD2 /* Pods-WeatherUndergroundTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeatherUnderground.app/WeatherUnderground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherUnderground/WeatherUnderground-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WeatherUndergroundTests/WeatherUndergroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E7B2EFCB190AA65300EEE931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620D139046344D968E220FD2 /* Pods-WeatherUndergroundTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeatherUnderground.app/WeatherUnderground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherUnderground/WeatherUnderground-Prefix.pch";
+				INFOPLIST_FILE = "WeatherUndergroundTests/WeatherUndergroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B2EF8F190AA65200EEE931 /* Build configuration list for PBXProject "WeatherUnderground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B2EFC4190AA65300EEE931 /* Debug */,
+				E7B2EFC5190AA65300EEE931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B2EFC6190AA65300EEE931 /* Build configuration list for PBXNativeTarget "WeatherUnderground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B2EFC7190AA65300EEE931 /* Debug */,
+				E7B2EFC8190AA65300EEE931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B2EFC9190AA65300EEE931 /* Build configuration list for PBXNativeTarget "WeatherUndergroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B2EFCA190AA65300EEE931 /* Debug */,
+				E7B2EFCB190AA65300EEE931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B2EF8C190AA65200EEE931 /* Project object */;
+}

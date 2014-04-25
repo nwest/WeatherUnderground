@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking.h>
 #import "WUViewController.h"
 
 @interface WUService : NSObject
 
-- (void)fetchTemperatureInDetroit:(WUViewController *) requester;
+@property (nonatomic, strong) AFHTTPRequestOperationManager *manager;
+
+- (void)fetchTemperatureInDetroit:(WUViewController *)requester;
 
 @end
